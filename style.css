@@ -1,0 +1,84 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 104, 104);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin: 0px 10px;
+}
+
+nav {
+    display: grid;
+    gap: 10px;
+    margin: 0px 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 35px 35px;
+}
+
+button {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(255, 198, 113);
+    transition: all .3s ease-in;
+}
+button:hover {
+    background-color: bisque;
+}
+
+main {
+    overflow: auto ;
+    padding: 100px 20%;
+}
+
+section {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 280px 280px;
+
+}
+
+section h2 {
+    grid-column: span 2;
+    text-align: center;
+
+}
+
+section article {
+    height: 100%;
+    background-color: rgb(255, 226, 96);
+    text-align: center;
+}
+
+figure {
+    margin: 0px;
+    margin-top: 10px;
+    }
+    
+section img {
+    width: 150px;
+    height: 180px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(87, 202, 255);
+    bottom: 0px;
+    padding: 20px 20%;
+}
+
+footer p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
